@@ -3,8 +3,8 @@
 
 export default function HeroName({name}: {name: string}) {
     return (
-        <div>
-            <h1>{name}</h1>
-        </div>
+        <h1>
+            <span>{name}</span>
+        </h1>
     )
 }

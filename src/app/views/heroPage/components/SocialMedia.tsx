@@ -1,8 +1,10 @@
 export default function SocialMedia() {
 
     return (
-        <ul>
-            
-        </ul>
+<section>
+    <ul>
+        
+    </ul>
+</section>
     )
 }

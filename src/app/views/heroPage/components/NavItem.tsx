@@ -4,21 +4,15 @@ export default function NavItem() {
 
 return (
     <nav>
-        <ul>
+        <ul className="flex gap-6">
             <li>
-                <Link href="/">Home</Link>
+                <Link href="/about">About</Link>
             </li>
             <li>
-                <Link href="/about">about</Link>
+                <Link href="/projects">Projects</Link>
             </li>
             <li>
-                <Link href="/">Home</Link>
-            </li>
-            <li>
-                <Link href="/">Home</Link>
-            </li>
-            <li>
-                <Link href="/">Home</Link>
+                <Link href="/experiences">Experiences</Link>
             </li>
         </ul>
     </nav>
