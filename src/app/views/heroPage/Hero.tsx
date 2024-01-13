@@ -1,6 +1,13 @@
-export default function Hero() {
+import HeroName from "@/app/views/heroPage/components/HeroName"
+import NavItem from "@/app/views/heroPage/components/NavItem"
+import SocialMedia from "@/app/views/heroPage/components/SocialMedia"
 
+export default function Hero() {
 	return (
-		<h1>Hero</h1>
-	)
+		<header className="flex justify-evenly align-middle text-center">
+			<HeroName name="JnGdt" />
+			<NavItem />
+			<SocialMedia />
+		</header>
+	);
 }
