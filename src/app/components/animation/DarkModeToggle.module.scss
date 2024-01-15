@@ -1,0 +1,22 @@
+.darkmodeAnimate {
+    z-index: -999;
+    position: absolute;
+    width: 99%;
+    height: 500vh;
+    left: 0;
+    clip-path: circle(0% at 120% 25%);
+    transition: clip-path 1.8s ease;
+  
+    &.active {
+      clip-path: circle(200% at 98% 9%);
+    }
+  }
+  
+  .darkMode {
+    background: #fff;
+  
+    &.active {
+      background: #ffc207;
+    }
+  }
+  

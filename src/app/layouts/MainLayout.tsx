@@ -1,6 +1,7 @@
 import NavItem from "@/app/layouts/NavItem";
 import HeaderLayout from "@/app/layouts/HeaderLayout";
 import SocialMedia from "./components/SocialMedia";
+import MyName from "./components/MyName";
 
 
 export default function MainLayout(
@@ -11,6 +12,7 @@ export default function MainLayout(
     return (
         <>
         <HeaderLayout>
+        <MyName myName="JnGdt"/>
         <NavItem/>
         <SocialMedia/>
         </HeaderLayout>
