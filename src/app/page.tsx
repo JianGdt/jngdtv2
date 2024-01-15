@@ -3,7 +3,7 @@ import Hero from './views/heroPage/Hero'
 
 export default function Home() {
   return (
-		<main className='container'>
+		<main>
 			<Hero/>
 		</main>
   )

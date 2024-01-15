@@ -1,13 +1,10 @@
-import HeroName from "@/app/views/heroPage/components/HeroName"
-import NavItem from "@/app/views/heroPage/components/NavItem"
-import SocialMedia from "@/app/views/heroPage/components/SocialMedia"
+import HeroLogo from "@/app/layouts/components/HeroLogo";
+import myLogo from '@/app/assets/jgLogo.png'
 
 export default function Hero() {
 	return (
-		<header className="flex justify-evenly align-middle text-center">
-			<HeroName name="JnGdt" />
-			<NavItem />
-			<SocialMedia />
-		</header>
+		<figure className="flex justify-evenly align-middle text-center">
+			<HeroLogo myLogo={myLogo} />
+		</figure>
 	);
 }
