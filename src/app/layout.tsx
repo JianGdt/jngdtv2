@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Quicksand } from 'next/font/google'
 import './globals.css'
 import MainLayout from './layouts/MainLayout'
 import { ThemeProvider } from './components/ThemeProvider'
 
-const inter = Inter({ subsets: ['latin'] })
+const quicksand = Quicksand({ subsets: ['latin'],
+weight: ["300", "400", "500", "600", "700"],
+ })
 
 export const metadata: Metadata = {
   title: 'JnGdt',
@@ -18,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={quicksand.className}>
         <ThemeProvider 
         attribute="class"
         enableSystem

@@ -14,8 +14,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+			backgroundColor: {
+				dark: '#424242',
+				darkest: '#212121',
+				light: '#E0E0E0'
+			},
       maxWidth: {
-        "app-layout": "1560px",
+        "app-layout": "1200px",
       },
     },
   },

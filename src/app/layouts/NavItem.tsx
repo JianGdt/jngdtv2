@@ -4,7 +4,7 @@ export default function NavItem() {
 
 return (
 <nav>
-    <ul className="flex gap-6 items-center">
+    <ul className="flex gap-6 items-center ">
         <MenuItems/>
     </ul>
 </nav>

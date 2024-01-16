@@ -10,6 +10,6 @@
 
 @layer components {
   .container {
-    @apply mx-auto w-full max-w-app-layout px-[20px] md:px-[40px];
+    @apply mx-auto w-full max-w-app-layout;
   }
 }
