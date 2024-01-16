@@ -1,18 +1,27 @@
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
-export default function MenuItems() {
+type navItem = {
+    name: string,
+    path: string
+}
+
+export default function MenuItems({name,path}: navItem) {
+  const pathname = usePathname()
+  const isActive = path === pathname;
+
 
     return (
-        <>
-        <li>
-            <Link href="/about">About</Link>
-        </li>
-        <li>
-             <Link href="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link href="/experiences">Experiences</Link>
-        </li>
-        </>
+      <li>
+      <Link href={path}>
+        <span
+          className={`transition duration-300 ease-in-out ${
+            isActive ? "font-bold " : "dark:text-light text-dark"
+          }`}
+        >
+          {name}
+        </span>
+      </Link>
+    </li>
     )
 }

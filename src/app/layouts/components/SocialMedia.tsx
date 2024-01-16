@@ -3,7 +3,8 @@ import Link from "next/link";
 import Image from "next/image"; 
 import DarkModeToggle from "@/app/components/DarkModeToggle";
 
-export default function SocialMedia() {
+export default function SocialMedia({isShowDarkMode = true}: {isShowDarkMode?: boolean}) {
+
 return (
     <section>
         <ul className="flex gap-2 items-center">
@@ -14,7 +15,7 @@ return (
                     </Link>
                 </li>
             ))}
-        <DarkModeToggle/>
+         {isShowDarkMode && <DarkModeToggle />}
         </ul>
     </section>
     );

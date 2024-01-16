@@ -2,7 +2,7 @@ import Image from "next/image";
 import avatar from '@/app/assets/avatar.png'
 export default function Hero() {
 	return (
-		<section className="container p-10 grid sm:grid-cols-2 grid-cols-1 place-items-center">
+		<section className="container grid sm:grid-cols-2 grid-cols-1 place-items-center">
 			<div className="align-middle block items-center text-start">
 				<span className="text-5xl font-bold">
 					Jian Godito.

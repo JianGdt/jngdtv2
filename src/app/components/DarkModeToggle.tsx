@@ -12,7 +12,7 @@ export default function DarkModeToggle() {
   
     useEffect(() => {
         setisDarkMode(true);
-    }, [setisDarkMode]);
+    }, []);
 
 return (
     <button

@@ -12,17 +12,17 @@ declare type socialMedia = {
 
 export const socialMedia: socialMedia[] = [
     {
-        name: 'facebook',
+        name: 'Facebook',
         link: 'https://www.facebook.com/Gyaaannn',
         imageUrl: facebook,
     },
     {
-        name: 'linkedin',
+        name: 'Linkedin',
         link: 'https://www.linkedin.com/in/jn-gdt/',
         imageUrl: linkedin,
     },
     {
-        name: 'github',
+        name: 'Github',
         link: 'https://github.com/secretx44',
         imageUrl: github,
     }
