@@ -23,9 +23,9 @@ return (
     {isDarkMode && (
         <>
             {theme === 'dark' ? (
-            <Image src={lightMode} alt="light mode" width={20} height={10} />
+            <Image src={lightMode} alt="light mode" width={20} height={20} className="h-auto"/>
             ) : (
-            <Image src={darkMode} alt="dark mode" width={20} height={10} />
+            <Image src={darkMode} alt="dark mode" width={20} height={20} className="h-auto"/>
             )}
         </>
         )}

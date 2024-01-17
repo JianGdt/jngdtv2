@@ -11,7 +11,7 @@ export default function Hero() {
 				<p className="font-medium">Experienced Front-End Developer Proficient in JavaScript (React.js/Vue.js) and TypeScript, Crafting Seamless and Innovative User Experiences</p>
 			</div>
 			<div className="hidden md:flex">
-				<Image src={avatar} alt='avatar' width={900} height={50}/>
+				<Image src={avatar} alt='avatar' priority width={900} height={50}/>
 			</div>
 		</section>
 	);

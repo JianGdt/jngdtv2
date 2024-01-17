@@ -12,7 +12,7 @@ export default function MenuItems({name,path}: navItem) {
 
 
     return (
-      <li>
+    <li>
       <Link href={path}>
         <span
           className={`transition duration-300 ease-in-out ${

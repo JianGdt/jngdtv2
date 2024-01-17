@@ -1,5 +1,6 @@
 import { navItems } from "@/app/constant/navItems";
 import MenuItems from "@/app/layouts/components/MenuItems";
+
 export default function NavItem() {
 
 return (
