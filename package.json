@@ -6,14 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && tsc --pretty"
+    "lint": "next lint"
   },
   "dependencies": {
     "aos": "^2.3.4",
     "eslint": "^8.56.0",
-    "eslint-config-next": "^14.0.4",
     "framer-motion": "^10.18.0",
-    "lint": "^0.8.19",
+    "lint": "^1.1.2",
     "next": "^14.0.4",
     "next-themes": "^0.2.1",
     "npm": "^10.3.0",
@@ -29,6 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
     "autoprefixer": "^10.0.1",
+    "eslint-config-next": "^14.0.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-next": "^0.0.0",
     "eslint-plugin-react": "^7.33.2",

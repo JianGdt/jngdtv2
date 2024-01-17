@@ -14,7 +14,6 @@ type project = {
 
 
 export const projects: project[] = [
-
     {
         name: 'iMovie',
         imageUrl: movie,
