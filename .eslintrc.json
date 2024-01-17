@@ -1,5 +1,5 @@
 {
-  "extends": ["next/core-web-vitals@latest"],
+  "extends": "next",
   "rules": {
     "no-unused-vars": "off",
     "unused-imports/no-unused-imports": "error"
