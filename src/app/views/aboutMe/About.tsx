@@ -5,7 +5,7 @@ export default function About() {
 return (
 	<section className="container">
 		<h1 className="text-5xl md:text-7xl font-medium text-center drop-shadow-text">About</h1>
-		<div className="grid grid-cols-1 md:grid-cols-2 md:my-12 mt-5 gap-x-24">
+		<div className="grid grid-cols-1 md:grid-cols-2 md:mb-24 mt-12 gap-x-24">
 		<div>
 		<p className="text-justify w-full font-medium mb-3 md:mb-24">My interest in creating web pages and applications stemmed from my curiosity about computers and the complexities of website design. 
 		I ended myself in the software industry by default because of this adventure. After working as a frontend developer for two years, 

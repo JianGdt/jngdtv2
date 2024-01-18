@@ -1,7 +1,7 @@
 import movie from '@/app/assets/imovie.png'
 import github from '@/app/assets/githubUsers.png'
 import ecommerce from '@/app/assets/ecom.png'
-import randomjks from '@/app/assets/rndmjks.jpg'
+import randomjks from '@/app/assets/rndmjokes.png'
 import weatherApp from '@/app/assets/weatherApp.png'
 import { StaticImageData } from 'next/image'
 
