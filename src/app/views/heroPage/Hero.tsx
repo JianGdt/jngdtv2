@@ -2,6 +2,7 @@
 import Image from "next/image";
 import avatar from '@/app/assets/avatar.png'
 import { motion } from "framer-motion";
+import ActionButton from "@/app/components/ActionButton";
 export default function Hero() {
 	return (
 		<motion.section className="container grid sm:grid-cols-2 md:p-2 grid-cols-1 place-items-center" 
@@ -19,6 +20,7 @@ export default function Hero() {
 				</span>
 				<p className="font-medium">Front-end Developer</p>
 				<p className="font-medium">Experienced Front-End Developer Proficient in JavaScript (React.js/Vue.js) and TypeScript, Crafting Seamless and Innovative User Experiences</p>
+				<ActionButton/>
 			</div>
 			<div className="hidden md:flex">
 				<Image src={avatar} alt='avatar' priority width={900} height={50}/>
