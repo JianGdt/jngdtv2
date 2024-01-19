@@ -9,6 +9,6 @@ export const actionButton: ActionButton[] = [
 		btnLabel: 'Contact Me'
 	},
 	{
-		btnLabel: 'Download my CV'
+		btnLabel: 'My Resume'
 	},
 ]

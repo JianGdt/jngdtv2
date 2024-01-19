@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={quicksand.className}>
+      <body className={`transition h-full  duration-75 ease-in ${quicksand.className}`}>
         <ThemeProvider 
         attribute="class"
         enableSystem
