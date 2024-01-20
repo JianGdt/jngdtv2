@@ -28,6 +28,7 @@ export default function Experiences() {
                             <h1 className="text-2xl font-bold">{experience.companyName}</h1>
                             <span className="text-sm bg-darkest text-white rounded-md p-2">{experience.years}</span>
                         </div>
+                            <p>Technology stack that we used:</p>
                         <p className="text-sm text-light text-center md:text-start">{experience.skills}</p>
                     </motion.li>
                 ))}
