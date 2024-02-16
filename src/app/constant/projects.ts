@@ -3,6 +3,7 @@ import github from '@/app/assets/githubUsers.png'
 import ecommerce from '@/app/assets/ecom.png'
 import randomjks from '@/app/assets/rndmjokes.png'
 import weatherApp from '@/app/assets/weatherApp.png'
+import foodRecipes from '@/app/assets/foodRecipes.png'
 import { StaticImageData } from 'next/image'
 
 
@@ -38,5 +39,10 @@ export const projects: project[] = [
         name: 'Weather App',
         imageUrl: weatherApp,
         link: 'https://weather-app-jngdt.vercel.app/'
+    },
+    {
+        name: 'Food Recipes',
+        imageUrl: foodRecipes,
+        link: 'https://foodhuntt.netlify.app/'
     },
 ]
