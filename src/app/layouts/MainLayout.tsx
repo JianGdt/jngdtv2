@@ -8,17 +8,18 @@ import Footer from "@/app/layouts/components/Footer";
 export default function MainLayout(props: { children: React.ReactNode }) {
 
 
+
   return (
-         <>
-          <AppContainer>
-            <HeaderLayout>
-              <MyName myName="JnGdt" />
-              <NavItem />
-              <SocialMedia />
-            </HeaderLayout>
-          </AppContainer>
-          {props.children}
-          <Footer />
-        </>
+    <>
+      <AppContainer>
+        <HeaderLayout>
+          <MyName myName="JnGdt" />
+          <NavItem />
+          <SocialMedia />
+        </HeaderLayout>
+      </AppContainer>
+      {props.children}
+      <Footer />
+    </>
   );
 }

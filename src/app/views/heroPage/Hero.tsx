@@ -5,13 +5,12 @@ import { motion } from "framer-motion";
 import ActionButton from "@/app/components/ActionButton";
 export default function Hero() {
 	return (
-		<motion.section className="container grid sm:grid-cols-2 md:p-2 grid-cols-1 place-items-center" 
+		<motion.section className="container grid py-32 sm:grid-cols-2 md:mb-56 md:p-2 grid-cols-1 place-items-center" 
 		initial={{ opacity: 0, x: "-100%" }}
 		animate={{ opacity: 1, x: "0%" }}
 		transition={{
 		  type: "spring",
-		  stiffness: 150,
-		  duration: 1.2,
+		  duration: 1.5,
 		}}
 		>
 			<div className="align-middle block items-center text-start">
@@ -19,7 +18,7 @@ export default function Hero() {
 					Jian Godito.
 				</span>
 				<p className="font-medium">Front-end Developer</p>
-				<p className="font-medium">Experienced Front-End Developer Proficient in JavaScript (React.js/Vue.js) and TypeScript, Crafting Seamless and Innovative User Experiences</p>
+				<p className="font-normal text-dark dark:text-light">Experienced Front-End Developer Proficient in JavaScript (React.js/Vue.js) and TypeScript, Crafting Seamless and Innovative User Experiences</p>
 				<ActionButton/>
 			</div>
 			<div className="hidden md:flex">

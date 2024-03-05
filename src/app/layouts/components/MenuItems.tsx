@@ -12,11 +12,11 @@ export default function MenuItems({name,path}: navItem) {
   const isActive = path === pathname;
 
 
-    return (
-    <li>
+  return (
+    <li className="cursor-pointer">
       <Link href={path}>
         <span
-          className={`transition duration-300 ease-in-out ${
+          className={`transition duration-75 ease-in-out ${
             isActive ? "font-bold " : "dark:text-light text-dark"
           }`}
         >
@@ -24,5 +24,5 @@ export default function MenuItems({name,path}: navItem) {
         </span>
       </Link>
     </li>
-    )
+  );
 }

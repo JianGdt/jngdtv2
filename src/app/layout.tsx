@@ -5,8 +5,8 @@ import MainLayout from '@/app/layouts/MainLayout'
 import { ThemeProvider } from '@/app/components/ThemeProvider'
 
 export const metadata: Metadata = {
-  title: 'JnGdt',
-  description: 'JnGdt',
+  title: 'Jian Godito',
+  description: 'Front-End Developer',
 }
 
 const quicksand = Quicksand({ 
@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={quicksand.className}>
+      <body className={`transition h-full duration-75 ease-in ${quicksand.className}`}>
         <ThemeProvider 
         attribute="class"
         enableSystem
