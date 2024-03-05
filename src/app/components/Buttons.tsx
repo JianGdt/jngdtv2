@@ -4,7 +4,7 @@ export default function Buttons({ btnLabel }: { btnLabel: string }) {
   const buttonClassName = isDownloadBtn
     ? "dark:bg-darkest bg-light text-dark dark:text-light"
     : "bg-darkest text-light dark:bg-light dark:text-dark";
-  const href = isDownloadBtn ? "/file/JianGdtCv.pdf" : "/contact";
+  const href = isDownloadBtn ? "/file/JnGdtResume.pdf" : "/contact";
 
   return (
     <a
