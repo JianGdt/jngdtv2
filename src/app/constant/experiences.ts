@@ -6,8 +6,8 @@ type experiences = {
 
 export const experiences: experiences[] = [
   {
-    companyName: 'Philtech Info Service Inc.',
-    years: 'June 2023 - Present',
+    companyName: 'Philtech Info Service Inc. (FILBET.COM)',
+    years: 'June 2023 - January 2024',
     skills:
       'Redux · Search Engine Optimization (SEO) · Nuxt.js · TypeScript · Next.js · React.js · Front-End Development',
   },

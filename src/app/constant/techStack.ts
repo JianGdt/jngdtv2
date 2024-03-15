@@ -7,6 +7,7 @@ import vue from '@/app/assets/vuejs.svg'
 import bootstrap from '@/app/assets/bootstrap.svg'
 import git from '@/app/assets/git.svg'
 import typescript from '@/app/assets/typescript.svg'
+import nodejs from '@/app/assets/nodejs.svg'
 import tailwind from '@/app/assets/tailwind.svg'
 import figma from '@/app/assets/figma.svg'
 import sass from '@/app/assets/sass.svg'
@@ -32,6 +33,9 @@ export const techStack: techStack[] = [
     },
     {
         imageUrl: typescript,
+    },
+    {
+        imageUrl: nodejs,
     },
     {
         imageUrl: redux,

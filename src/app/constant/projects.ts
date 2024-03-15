@@ -4,6 +4,7 @@ import ecommerce from '@/app/assets/ecom.png'
 import randomjks from '@/app/assets/rndmjokes.png'
 import weatherApp from '@/app/assets/weatherApp.png'
 import foodRecipes from '@/app/assets/foodRecipes.png'
+import capstone from '@/app/assets/capstoneTitle.png'
 import { StaticImageData } from 'next/image'
 
 
@@ -44,5 +45,10 @@ export const projects: project[] = [
         name: 'Food Recipes',
         imageUrl: foodRecipes,
         link: 'https://foodhuntt.netlify.app/'
+    },
+    {
+        name: 'Capstone Title Generator',
+        imageUrl: capstone,
+        link: 'https://capstonetitles.vercel.app/'
     },
 ]

@@ -18,7 +18,7 @@ export default function Experiences() {
                 {experiences.map((experience, idx) => (
                     <motion.li
                         key={experience.companyName}
-                        className={`bg-dark justify-center flex flex-col p-9 my-5 h-52 rounded-md shadow-2xl ${idx % 2 === 0 ? 'md:ml-auto' : 'md:mr-auto'}`}
+                        className={`bg-dark justify-center flex flex-col p-9 my-5 h-auto rounded-md shadow-2xl ${idx % 2 === 0 ? 'md:ml-auto' : 'md:mr-auto'}`}
                         initial={{ opacity: 0, x: idx % 2 === 0 ? -50 : 50 }}
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0 }}
@@ -28,7 +28,7 @@ export default function Experiences() {
                             <h1 className="text-2xl font-bold">{experience.companyName}</h1>
                             <span className="text-sm bg-darkest text-white rounded-md p-2">{experience.years}</span>
                         </div>
-                            <p>Technology stack that we used:</p>
+                            <p>Skills:</p>
                         <p className="text-sm text-light text-center md:text-start">{experience.skills}</p>
                     </motion.li>
                 ))}
