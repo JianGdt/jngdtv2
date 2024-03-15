@@ -6,7 +6,11 @@ type experiences = {
 
 export const experiences: experiences[] = [
   {
+<<<<<<< HEAD
     companyName: 'Philtech Info Service Inc. (FILBET.COM)',
+=======
+    companyName: 'Philtech Info Service Inc. (Filbet.com)',
+>>>>>>> 30715baaca63fb166674b07503fe4f78ccbb9e0f
     years: 'June 2023 - January 2024',
     skills:
       'Redux · Search Engine Optimization (SEO) · Nuxt.js · TypeScript · Next.js · React.js · Front-End Development',
