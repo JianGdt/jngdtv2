@@ -28,4 +28,10 @@ export const experiences: experiences[] = [
     skills:
       'SASS · Git · Jenkins · TypeScript · HTML · Cascading Style Sheets (CSS) · JavaScript · React.js · Redux · Front-End Development',
   },
+  {
+    companyName: 'Freelancing',
+    years: '2021 - 2022',
+    skills:
+      'React.js · Vue.js · JavaScript · TypeScript · Front-End Development, Collaboration with other developers, and designers.',
+  },
 ];

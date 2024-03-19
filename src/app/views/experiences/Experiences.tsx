@@ -29,7 +29,7 @@ export default function Experiences() {
                             <span className="text-sm bg-darkest text-white rounded-md p-2">{experience.years}</span>
                         </div>
                             <p>Skills:</p>
-                        <p className="text-sm text-light text-center md:text-start">{experience.skills}</p>
+                        <p className="text-sm text-light text-start">{experience.skills}</p>
                     </motion.li>
                 ))}
             </motion.ul>

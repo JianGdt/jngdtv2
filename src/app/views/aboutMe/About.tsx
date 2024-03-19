@@ -5,7 +5,7 @@ import TechStack from "./components/TechStack";
 
 export default function About() {
 	return (
-		<section className="container flex flex-col justify-center min-h-[52rem]">
+		<section className="container flex flex-col justify-center min-h-screen">
 			<h1 className="text-5xl md:text-7xl font-medium text-center drop-shadow-text">About</h1>
 			<div className="grid grid-cols-1 md:grid-cols-2 md:mb-24 mt-12 gap-x-24">
 				<motion.div 
@@ -27,7 +27,7 @@ export default function About() {
 				transition={{ duration: 0.5 }}
 				>
 					<h1 className="text-2xl font-bold mt-3 md:mt-0">Technology Stack</h1>
-					<p className="text-sm mb-6">For 2 years</p>
+					<p className="text-sm mb-6">For 3 years</p>
 					<TechStack />
 				</motion.div>
 			</div>
