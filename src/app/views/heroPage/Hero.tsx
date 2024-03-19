@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import ActionButton from "@/app/components/ActionButton";
 export default function Hero() {
 	return (
-		<motion.section className="container grid py-32 sm:grid-cols-2 md:mb-56 md:p-2 grid-cols-1 place-items-center" 
+		<motion.section className="container grid py-32 min-h-screen sm:grid-cols-2 md:mb-56 md:p-2 grid-cols-1 place-items-center" 
 		initial={{ opacity: 0, x: "-100%" }}
 		animate={{ opacity: 1, x: "0%" }}
 		transition={{
