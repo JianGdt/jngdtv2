@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import ActionButton from "@/app/components/ActionButton";
 export default function Hero() {
 	return (
-		<motion.section className="container grid min-h-screen sm:grid-cols-2 md:mb-56 md:p-2 grid-cols-1 place-items-center" 
+		<motion.section className="container grid min-h-screen md:grid-cols-2 md:mb-56 md:p-2 grid-cols-1 place-items-center" 
 		initial={{ opacity: 0, x: "-100%" }}
 		animate={{ opacity: 1, x: "0%" }}
 		transition={{
@@ -13,7 +13,7 @@ export default function Hero() {
 		  duration: 1.5,
 		}}
 		>
-			<div className="align-middle block items-center text-start">
+			<div className="align-middle w-full mx-auto block items-center text-start">
 				<span className="text-5xl font-bold">
 					Jian Godito.
 				</span>

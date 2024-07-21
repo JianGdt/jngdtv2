@@ -1,3 +1,4 @@
+'use client'
 import NavItem from "@/app/layouts/NavItem";
 import HeaderLayout from "@/app/layouts/HeaderLayout";
 import SocialMedia from "@/app/layouts/components/SocialMedia";
