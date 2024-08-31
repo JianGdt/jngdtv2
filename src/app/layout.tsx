@@ -5,7 +5,7 @@ import MainLayout from '@/app/layouts/MainLayout'
 import { ThemeProvider } from '@/app/components/ThemeProvider'
 
 export const metadata: Metadata = {
-  title: 'Jian Godito',
+  title: 'JianGdt',
   description: 'Front-End Developer',
 }
 

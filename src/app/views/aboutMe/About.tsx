@@ -15,7 +15,7 @@ export default function About() {
 				transition={{ duration: 0.5 }}
 				>
 					<p className="text-justify w-full font-medium mb-3 md:mb-24">My interest in creating web pages and applications stemmed from my curiosity about computers and the complexities of website design.
-						I ended myself in the software industry by default because of this adventure. After working as a frontend developer for two years,
+						I ended myself in the software industry by default because of this adventure. After working as a frontend developer for three years,
 						I now combine my knowledge and enthusiasm to produce fluid digital experiences. Willing to learn new things all the time 💻</p>
 					<h1 className="text-2xl mb-4 font-bold">Social Links</h1>
 					<SocialLinks />
