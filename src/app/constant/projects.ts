@@ -5,6 +5,7 @@ import randomjks from '@/app/assets/rndmjokes.png'
 import weatherApp from '@/app/assets/weatherApp.png'
 import foodRecipes from '@/app/assets/foodRecipes.png'
 import capstone from '@/app/assets/capstoneTitle.png'
+import productShop from '@/app/assets/MERN-CRUD.png'
 import { StaticImageData } from 'next/image'
 
 
@@ -16,16 +17,6 @@ type project = {
 
 
 export const projects: project[] = [
-    {
-        name: 'iMovie',
-        imageUrl: movie,
-        link: 'https://imovie-three.vercel.app/'
-    },
-    {
-        name: 'Github Users',
-        imageUrl: github,
-        link: 'https://githubusers-mauve.vercel.app/'
-    },
     {
         name: 'Shopiyey',
         imageUrl: ecommerce,
@@ -50,5 +41,20 @@ export const projects: project[] = [
         name: 'Capstone Title Generator',
         imageUrl: capstone,
         link: 'https://capstonetitles.vercel.app/'
+    },
+    {
+        name: 'MERN-CRUD-Shop',
+        imageUrl: productShop,
+        link: 'https://mernshopp.onrender.com/'
+    },
+    {
+        name: 'iMovie',
+        imageUrl: movie,
+        link: 'https://imovie-three.vercel.app/'
+    },
+    {
+        name: 'Github Users',
+        imageUrl: github,
+        link: 'https://githubusers-mauve.vercel.app/'
     },
 ]

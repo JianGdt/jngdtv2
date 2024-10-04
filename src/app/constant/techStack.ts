@@ -12,7 +12,7 @@ import typescript from '@/app/assets/typescript.svg'
 import tailwind from '@/app/assets/tailwind.svg'
 import figma from '@/app/assets/figma.svg'
 import sass from '@/app/assets/sass.svg'
-import mySql from '@/app/assets/mysql.svg'
+import mongoDB from '@/app/assets/mngoDb.svg'
 import php from '@/app/assets/php.svg'
     import jenkins from '@/app/assets/jenkins.svg'
 import { StaticImageData } from 'next/image'
@@ -72,7 +72,7 @@ export const techStack: techStack[] = [
         imageUrl: jenkins,
     },
     {
-        imageUrl: mySql,
+        imageUrl: mongoDB,
     },
     
 ]
