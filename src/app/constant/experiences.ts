@@ -9,7 +9,7 @@ export const experiences: experiences[] = [
     companyName: 'Fun J Software Devevelopment',
     years: 'Feb 2024 - Current',
     skills:
-      'Vue.js · TypeScript · React.js · Front-End Development',
+      'Vue.js · TypeScript · React.js ·  Ant Design · Front-End Development',
   },
   {
     companyName: 'Philtech Info Service Inc. (Filbet.com)',
@@ -38,6 +38,6 @@ export const experiences: experiences[] = [
     companyName: 'Freelancing',
     years: '2021 - 2022',
     skills:
-      'React.js · Vue.js · JavaScript · TypeScript · Front-End Development, Collaboration with other developers, and designers.',
+      'React.js · Vue.js · JavaScript · TypeScript · MongoDB · NodeJs · Front-End Development, Collaboration with other developers, and designers.',
   },
 ];

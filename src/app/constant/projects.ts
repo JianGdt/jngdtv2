@@ -18,19 +18,14 @@ type project = {
 
 export const projects: project[] = [
     {
-        name: 'Shopiyey',
+        name: 'Shopi',
         imageUrl: ecommerce,
         link: 'https://shopiyey.vercel.app/'
     },
     {
-        name: 'Random Jokes',
-        imageUrl: randomjks,
-        link: 'https://rndmjokes.vercel.app/'
-    },
-    {
-        name: 'Weather App',
-        imageUrl: weatherApp,
-        link: 'https://weather-app-jngdt.vercel.app/'
+        name: 'Product Shop',
+        imageUrl: productShop,
+        link: 'https://mernshopp.onrender.com/'
     },
     {
         name: 'Food Recipes',
@@ -43,9 +38,14 @@ export const projects: project[] = [
         link: 'https://capstonetitles.vercel.app/'
     },
     {
-        name: 'MERN-CRUD-Shop',
-        imageUrl: productShop,
-        link: 'https://mernshopp.onrender.com/'
+        name: 'Random Jokes',
+        imageUrl: randomjks,
+        link: 'https://rndmjokes.vercel.app/'
+    },
+    {
+        name: 'Weather App',
+        imageUrl: weatherApp,
+        link: 'https://weather-app-jngdt.vercel.app/'
     },
     {
         name: 'iMovie',
