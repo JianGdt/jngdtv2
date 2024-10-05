@@ -13,6 +13,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Quicksand", 'sans-serif'],
+      },
       colors: {
         dark: '#424242',
 				darkest: '#212121',

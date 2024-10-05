@@ -5,10 +5,8 @@ import { motion } from "framer-motion";
 export default function Experiences() {
 
     return (
-        <section className="container">
-            <div>
-                <h1 className="text-5xl md:text-7xl font-medium text-center drop-shadow-text">Experiences</h1>
-            </div>
+        <section className="container py-20">
+                <h1 className="text-5xl md:text-7xl font-bold text-start md:text-center">Experiences</h1>
             <motion.ul className="my-5 md:my-16"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -25,7 +23,7 @@ export default function Experiences() {
                         transition={{ duration: 0.5, delay: idx * 0.1 }}
                     >
                         <div className="flex flex-col text-center md:flex-row justify-between">
-                            <h1 className="text-2xl font-bold">{experience.companyName}</h1>
+                            <h1 className="text-2xl font-medium">{experience.companyName}</h1>
                             <span className="text-sm bg-darkest text-white rounded-md p-2">{experience.years}</span>
                         </div>
                             <p>Skills:</p>

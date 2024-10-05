@@ -5,6 +5,7 @@ import SocialMedia from "@/app/layouts/components/SocialMedia";
 import MyName from "@/app/layouts/components/MyName";
 import AppContainer from "@/app/layouts/components/AppContainer";
 import Footer from "@/app/layouts/components/Footer";
+import React from "react";
 
 export default function MainLayout(props: { children: React.ReactNode }) {
 
@@ -18,9 +19,9 @@ export default function MainLayout(props: { children: React.ReactNode }) {
           <NavItem />
           <SocialMedia />
         </HeaderLayout>
-      </AppContainer>
-      {props.children}
+        {props.children}
       <Footer />
+    </AppContainer>
     </>
   );
 }

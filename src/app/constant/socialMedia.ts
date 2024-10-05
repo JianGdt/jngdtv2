@@ -23,7 +23,7 @@ export const socialMedia: socialMedia[] = [
     },
     {
         name: 'Github',
-        link: 'https://github.com/secretx44',
+        link: 'https://github.com/JianGdt',
         imageUrl: github,
     }
 ]

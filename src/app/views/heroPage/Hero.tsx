@@ -17,8 +17,8 @@ export default function Hero() {
 				<span className="text-5xl font-bold">
 					Jian Godito.
 				</span>
-				<p className="font-medium">Front-end Developer</p>
-				<p className="font-normal text-dark dark:text-light">Experienced Front-End Developer Proficient in JavaScript (React.js/Vue.js) and TypeScript, Crafting Seamless and Innovative User Experiences</p>
+				<p className="font-medium text-xl">Front-end Developer</p>
+				<p className="font-normal text-sm text-dark dark:text-light">Experienced Front-End Developer Proficient in JavaScript (React.js/Vue.js) and TypeScript, Crafting Seamless and Innovative User Experiences</p>
 				<ActionButton/>
 			</div>
 			<div className="hidden md:flex">

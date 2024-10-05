@@ -5,6 +5,7 @@ import { useTheme } from 'next-themes';
 import lightMode from '@/app/assets/light.svg';
 import darkMode from '@/app/assets/moon.svg';
 import Image from 'next/image';
+import React from 'react';
 
 export default function DarkModeToggle() {
   const { theme, setTheme } = useTheme();

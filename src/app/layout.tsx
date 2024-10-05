@@ -12,6 +12,8 @@ export const metadata: Metadata = {
 const quicksand = Quicksand({ 
   subsets: ['latin'],
   weight: ["300", "400", "500", "600", "700"],
+  display:'swap',
+  style: ['normal']
  })
 
 
@@ -22,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`transition h-full duration-75 ease-in ${quicksand.className}`}>
+      <body className={`transition min-h-screen duration-75 ease-in font-sans ${quicksand.style.fontFamily} ${quicksand.className}`}>
         <ThemeProvider 
         attribute="class"
         enableSystem
